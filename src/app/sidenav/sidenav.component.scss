@@ -1,0 +1,61 @@
+.sidenav {
+    background: #263238;
+    transition: all .5s ease;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+    box-shadow: 0.063rem 0 1.25rem 0 #8690a3;
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        padding: 0.938rem 0.93843m 0 0.938rem;
+        width: 100%;
+
+        .logo {
+            background: white;
+            text-align: center;
+            width: 2.5rem;
+            min-width: 2.5rem;
+            border-radius: 0.313rem;
+            padding: 0.313rem;
+            font-size: 24px;
+            font-weight: 900;
+            cursor: pointer;
+            border: none;
+
+        }
+
+        .logo-text {
+            margin-left: 1.5rem;
+            font-size: 24px;
+            font-weight: 900;
+            color: white;
+        }
+
+        .btn-close {
+            margin-left: auto;
+            cursor: pointer;
+            width: 2.5rem;
+            height: 2.5rem;
+            border: none;
+            border-radius: 50%;
+            background-color: transparent;
+            
+            .fa-times {
+                color: white;
+                font-size: 24px;
+
+            }
+        }
+    }
+}
+
+
+.sidenav-collapsed {
+    width: 16.5rem;
+
+}
+
